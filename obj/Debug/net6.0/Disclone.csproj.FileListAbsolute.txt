@@ -25,3 +25,4 @@
 /Users/jakeshort/RiderProjects/Disclone/obj/Debug/net6.0/Disclone.pdb
 /Users/jakeshort/RiderProjects/Disclone/obj/Debug/net6.0/Disclone.genruntimeconfig.cache
 /Users/jakeshort/RiderProjects/Disclone/obj/Debug/net6.0/ref/Disclone.dll
+/Users/jakeshort/RiderProjects/Disclone/bin/Debug/net6.0/MySqlConnector.dll
