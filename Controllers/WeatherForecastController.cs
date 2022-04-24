@@ -1,3 +1,4 @@
+using Disclone.Contexts;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Disclone.Controllers;
@@ -13,20 +14,26 @@ public class WeatherForecastController : ControllerBase
 
     private readonly ILogger<WeatherForecastController> _logger;
 
-    public WeatherForecastController(ILogger<WeatherForecastController> logger)
+    private WeatherContext context;
+
+
+    public WeatherForecastController(ILogger<WeatherForecastController> logger, WeatherContext myContext)
     {
         _logger = logger;
+        context = myContext;
     }
 
-    [HttpGet(Name = "GetWeatherForecast")]
+    [HttpGet]
+    [Route("")]
     public IEnumerable<WeatherForecast> Get()
     {
-        return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+        var wf = new WeatherForecast
+        {
+            Summary = "my summarys"
+        };
+        context.WeatherForecasts.Add(wf);
+        context.SaveChanges();
+
+        return context.WeatherForecasts;
     }
 }
