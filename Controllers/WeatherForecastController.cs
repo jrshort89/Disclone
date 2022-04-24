@@ -27,12 +27,12 @@ public class WeatherForecastController : ControllerBase
     [Route("")]
     public IEnumerable<WeatherForecast> Get()
     {
-        var wf = new WeatherForecast
-        {
-            Summary = "my summarys"
-        };
-        context.WeatherForecasts.Add(wf);
-        context.SaveChanges();
+        // var wf = new WeatherForecast
+        // {
+        //     Summary = "my summarys"
+        // };
+        // context.WeatherForecasts.Add(wf);
+        // context.SaveChanges();
 
         return context.WeatherForecasts;
     }

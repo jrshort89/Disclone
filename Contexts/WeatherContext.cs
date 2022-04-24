@@ -1,3 +1,4 @@
+using Disclone.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Disclone.Contexts;
@@ -11,4 +12,5 @@ public class WeatherContext : DbContext
     }
 
     public DbSet<WeatherForecast> WeatherForecasts { get; set; }
+    public DbSet<Message> Messages { get; set; }
 }
