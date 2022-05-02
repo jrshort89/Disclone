@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Disclone.Contexts;
 
-public class WeatherContext : DbContext
+public class MessageContext : DbContext
 {
-    public WeatherContext(DbContextOptions<WeatherContext> options)
+    public MessageContext(DbContextOptions<MessageContext> options)
         : base(options)
     {
         

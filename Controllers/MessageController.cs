@@ -9,9 +9,9 @@ namespace Disclone.Controllers;
 public class MessageController
 {
 
-    private WeatherContext context;
+    private MessageContext context;
 
-    public MessageController(WeatherContext myContext)
+    public MessageController(MessageContext myContext)
     {
         context = myContext;
     }

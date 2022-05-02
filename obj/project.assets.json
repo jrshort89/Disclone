@@ -414,15 +414,6 @@
           }
         }
       },
-      "MySqlConnector/2.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/MySqlConnector.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/MySqlConnector.dll": {}
-        }
-      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -1455,35 +1446,6 @@
         "version.txt"
       ]
     },
-    "MySqlConnector/2.1.8": {
-      "sha512": "CVJ0w9PbUnBS3lfOII1J15DshAnJgKqkrvKfkTSiUerPjJpSAfv7LJR5aJNnzj+LdFw2grekguVe1kedp6LMyA==",
-      "type": "package",
-      "path": "mysqlconnector/2.1.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "lib/net45/MySqlConnector.dll",
-        "lib/net45/MySqlConnector.xml",
-        "lib/net461/MySqlConnector.dll",
-        "lib/net461/MySqlConnector.xml",
-        "lib/net471/MySqlConnector.dll",
-        "lib/net471/MySqlConnector.xml",
-        "lib/net5.0/MySqlConnector.dll",
-        "lib/net5.0/MySqlConnector.xml",
-        "lib/net6.0/MySqlConnector.dll",
-        "lib/net6.0/MySqlConnector.xml",
-        "lib/netcoreapp3.1/MySqlConnector.dll",
-        "lib/netcoreapp3.1/MySqlConnector.xml",
-        "lib/netstandard2.0/MySqlConnector.dll",
-        "lib/netstandard2.0/MySqlConnector.xml",
-        "lib/netstandard2.1/MySqlConnector.dll",
-        "lib/netstandard2.1/MySqlConnector.xml",
-        "logo.png",
-        "mysqlconnector.2.1.8.nupkg.sha512",
-        "mysqlconnector.nuspec"
-      ]
-    },
     "Swashbuckle.AspNetCore/6.2.3": {
       "sha512": "cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
       "type": "package",
@@ -2055,7 +2017,6 @@
       "Microsoft.EntityFrameworkCore >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.4",
-      "MySqlConnector >= 2.1.8",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -2109,10 +2070,6 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[6.0.4, )"
-          },
-          "MySqlConnector": {
-            "target": "Package",
-            "version": "[2.1.8, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

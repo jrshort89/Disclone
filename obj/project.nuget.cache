@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yCsreOpnZx3ierxgRTx4q6fYNzDTRH74bjwhCRxd96RYTB4YSF0RbOJPYnxxp91o6gL5H0X3NrjOtLfKMa3Feg==",
+  "dgSpecHash": "g9vK9FCGYhrrQV8rctZuX0R4U/nOKHWQVKehBEIboGje+4rVOb4n2SS7lgAHRSxgRWM+Z5o4Nc3NHseMTJx61Q==",
   "success": true,
   "projectFilePath": "/Users/jakeshort/RiderProjects/Disclone/Disclone.csproj",
   "expectedPackageFiles": [
@@ -34,7 +34,6 @@
     "/Users/jakeshort/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/jakeshort/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/Users/jakeshort/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "/Users/jakeshort/.nuget/packages/mysqlconnector/2.1.8/mysqlconnector.2.1.8.nupkg.sha512",
     "/Users/jakeshort/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/Users/jakeshort/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "/Users/jakeshort/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

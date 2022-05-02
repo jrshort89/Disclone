@@ -25,7 +25,6 @@
 /Users/jakeshort/RiderProjects/Disclone/obj/Debug/net6.0/Disclone.pdb
 /Users/jakeshort/RiderProjects/Disclone/obj/Debug/net6.0/Disclone.genruntimeconfig.cache
 /Users/jakeshort/RiderProjects/Disclone/obj/Debug/net6.0/ref/Disclone.dll
-/Users/jakeshort/RiderProjects/Disclone/bin/Debug/net6.0/MySqlConnector.dll
 /Users/jakeshort/RiderProjects/Disclone/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
 /Users/jakeshort/RiderProjects/Disclone/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
 /Users/jakeshort/RiderProjects/Disclone/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -60,3 +59,8 @@
 /Users/jakeshort/RiderProjects/Disclone/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
 /Users/jakeshort/RiderProjects/Disclone/bin/Debug/net6.0/Humanizer.dll
 /Users/jakeshort/RiderProjects/Disclone/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/jakeshort/RiderProjects/Disclone/bin/Debug/net6.0/out/web.config
+/Users/jakeshort/RiderProjects/Disclone/bin/Debug/net6.0/out/appsettings.Development.json
+/Users/jakeshort/RiderProjects/Disclone/bin/Debug/net6.0/out/appsettings.json
+/Users/jakeshort/RiderProjects/Disclone/bin/Debug/net6.0/out/Disclone.deps.json
+/Users/jakeshort/RiderProjects/Disclone/bin/Debug/net6.0/out/Disclone.runtimeconfig.json

@@ -1,6 +1,5 @@
 using Disclone.Contexts;
 using Microsoft.EntityFrameworkCore;
-using MySqlConnector;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +9,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<WeatherContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+
+builder.Services.AddDbContext<MessageContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
 var app = builder.Build();
 
@@ -21,7 +21,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
+
+PrepDB.PrePopulation(app);
 
 app.UseAuthorization();
 
