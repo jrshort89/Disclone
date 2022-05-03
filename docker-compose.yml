@@ -6,6 +6,8 @@ services:
       - "8000:80"
     depends_on:
       - "mssql-server"
+    volumes:
+      - /app/Dependencies
   mssql-server:
     image: "mcr.microsoft.com/azure-sql-edge"
     environment:

@@ -36,4 +36,11 @@ public class MessageController
         await context.SaveChangesAsync();
         return newMessage;
     }
+
+    [HttpGet]
+    [Route("/a")]
+    public string A()
+    {
+        return "a";
+    }
 }
