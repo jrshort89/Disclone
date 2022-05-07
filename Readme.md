@@ -7,8 +7,7 @@
 ### Startup
 - Add `appsettings.json` and `appsettings.Development.json`
 - Add `.env`
-- Run `docker-compose up`
-- currently you need to stop and restart `web` to connect to the DB
+- Run `docker-compose -f ./docker-compose.dev.yml up`
 
 ### Postman
 - Ask for invite
